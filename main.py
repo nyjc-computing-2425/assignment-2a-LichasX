@@ -1,5 +1,5 @@
 num = input('Enter a number (decimal or integer): ')
-num2 = num.replace('.', '').lstrip(" 0")
+num2 = num.replace('.', '').strip(" ").lstrip("0")
 sf = len(num2)
 
 
